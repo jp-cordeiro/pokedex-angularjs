@@ -8,6 +8,6 @@
     "express": "^4.9.8",
     "path": "^0.12.7"
   },
-  "postinstall": "npm run build",
+  "postinstall": "npm audit fix run build",
   "start": "node server.js"
 }
