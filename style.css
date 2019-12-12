@@ -1,0 +1,53 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    max-width: 1170;
+    margin: 0;
+    padding: 0.3px;
+}
+
+ul{
+    margin: 0;
+    background-color: red;
+    height: 50px;
+    display: flex;
+    list-style: none;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+}
+
+table thead{
+    display: flex;
+    flex: 1 1;
+}
+
+tr{
+    display: flex;
+    flex: 1 1;
+}
+
+tr th{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1;
+}
+
+tr td{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1;
+}

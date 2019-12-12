@@ -1,0 +1,44 @@
+<div>
+    <nav>
+        <ul>
+            <li>
+                Pokédex - Kanto
+            </li>
+        </ul>
+    </nav>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Number
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Picture
+                </th>
+                <th>
+                    Type
+                </th>
+            </tr>
+        </thead>
+        <tbody ng-repeat="pokemon in pokemonList">
+            <tr>
+                <td>
+                    #{{pokemon.id}}
+                </td>
+                <td>
+                    {{pokemon.name}}
+                </td>
+                <td>
+                    <img src="{{pokemon.picture}}" width="50" height="50"/>
+                </td>
+                <td>
+                    {{pokemon.types}}
+                </td>           
+            </tr>
+        </tbody>
+    </table>    
+</div>
