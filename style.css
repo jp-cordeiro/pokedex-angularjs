@@ -43,6 +43,7 @@ tr th{
     align-items: center;
     justify-content: center;
     flex: 1 1;
+    text-transform: uppercase;
 }
 
 tr td{
@@ -50,4 +51,5 @@ tr td{
     align-items: center;
     justify-content: center;
     flex: 1 1;
+    text-transform: uppercase;
 }
